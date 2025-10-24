@@ -5,12 +5,14 @@
 
 The agent works with any Azure DevOps organization and is perfect for engineering managers, team leads, and individual contributors who need to stay informed about discussions, decisions, and action items where they're mentioned.
 
-### Key Features
+### How It Works
 
-* **Automated Mention Detection** - Scans comments across multiple work items for @mentions of specified users
-* **Intelligent Filtering** - Only includes comments from the last 2 days to keep summaries relevant and actionable
-* **Dual-Format Reports** - Provides both concise summaries per work item and full detailed comment text
-* **Email Notifications** - Automatically sends formatted reports via Gmail with direct links to work items
+1. **Query Work Items** - Retrieves work items from a saved Azure DevOps query
+2. **Fetch Comments** - Collects all comments from each work item
+3. **Filter & Process** - Identifies mentions of the target user within the last 2 days
+4. **Format Report** - Creates a structured summary with work item context and full comment text
+5. **Send Notification** - Delivers the formatted report via email
+
 
 ### Prerequisites
 
@@ -27,13 +29,6 @@ To run the Azure DevOps Mentions Monitor agent with an MCP connection, you need:
   * `EMAIL_PASS` - Gmail App Password
   * `TO_EMAIL` - Recipient email address for summaries
 
-### How It Works
-
-1. **Query Work Items** - Retrieves work items from a saved Azure DevOps query
-2. **Fetch Comments** - Collects all comments from each work item
-3. **Filter & Process** - Identifies mentions of the target user within the last 2 days
-4. **Format Report** - Creates a structured summary with work item context and full comment text
-5. **Send Notification** - Delivers the formatted report via email
 
 ### Customization
 
