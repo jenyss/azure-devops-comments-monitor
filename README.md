@@ -5,7 +5,7 @@
 
 The agent works with any Azure DevOps organization and is perfect for engineering managers, team leads, and individual contributors who need to stay informed about discussions, decisions, and action items where they're mentioned.
 
-### How It Works
+## How It Works
 
 1. **Query Work Items** - Retrieves work items from a saved Azure DevOps query
 2. **Fetch Comments** - Collects all comments from each work item
@@ -13,24 +13,7 @@ The agent works with any Azure DevOps organization and is perfect for engineerin
 4. **Format Report** - Creates a structured summary with work item context and full comment text
 5. **Send Notification** - Delivers the formatted report via email
 
-
-### Prerequisites
-
-To run the Azure DevOps Mentions Monitor agent with an MCP connection, you need:
-
-* **Python 3.10+** with a virtual environment (venv)
-* **JupyterLab** (installed inside the venv) or Google Colab
-* **Node.js** - includes npx, which is used to launch the Azure DevOps MCP server (@azure-devops/mcp) on the fly without a global install
-* **Azure DevOps Access** - Valid Personal Access Token (PAT) with Work Items (Read) permissions
-* **Email Credentials** - Gmail account with App Password for sending notifications
-* **Environment Variables** configured in `.env` file:
-  * `GOOGLE_API_KEY` - Gemini API key for the agent's LLM
-  * `EMAIL_USER` - Gmail address for sending notifications
-  * `EMAIL_PASS` - Gmail App Password
-  * `TO_EMAIL` - Recipient email address for summaries
-
-
-### Customization
+## Customization
 
 You can easily customize the agent by modifying:
 
