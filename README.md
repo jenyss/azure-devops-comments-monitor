@@ -72,3 +72,4 @@ You can easily customize the agent by modifying:
     │  (via npx)              │    │  (Gmail SMTP)            │
     └─────────────────────────┘    └──────────────────────────┘
 ```
+### How-To
