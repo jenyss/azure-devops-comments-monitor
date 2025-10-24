@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Azure DevOps Comments Monitor</h1>
+<h1 style="text-align: center;">Azure DevOps Comments </h1>
 <p style="text-align: center;"><em>Powered by Google ADK &amp; Azure DevOps MCP</em></p>
 
 **This agent automatically monitors Azure DevOps work items for mentions of specific team members and delivers daily email summaries.** 
