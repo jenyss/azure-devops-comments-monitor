@@ -84,7 +84,6 @@ You can easily customize the agent by modifying:
 * Gmail account with App Password enabled for sending email notifications
 * Environment variables configured in a `.env` file:
   * `GOOGLE_API_KEY` - Your Gemini API key
-  * `AZURE_DEVOPS_PAT` - Your Azure DevOps Personal Access Token
   * `EMAIL_USER` - Your Gmail address
   * `EMAIL_PASS` - Your Gmail App Password
   * `TO_EMAIL` - Recipient email address for summaries
