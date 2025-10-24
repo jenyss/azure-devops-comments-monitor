@@ -23,7 +23,7 @@ You can easily customize the agent by modifying:
 * **Email Format** - Modify the email template and subject line
 * **Organization/Project** - Configure for any Azure DevOps organization and project
 
-```
+````
 ┌───────────────────────────────────────────────────────────────┐
 │                    USER TRIGGERS AGENT                        │
 │                 (Types command in Jupyter)                    │
