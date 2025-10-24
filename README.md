@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Azure DevOps Comments Monitor </h1>
 <p style="text-align: center;"><em>Powered by Google ADK &amp; Azure DevOps MCP</em></p>
 
-**This agent automatically monitors Azure DevOps work items for mentions of specific team members and delivers daily email summaries.** 
+**This agent automatically monitors Azure DevOps work items for mentions of specific person and delivers daily email summaries them.** 
 
 The agent works with any Azure DevOps organization and is perfect for engineering managers, team leads, and individual contributors who need to stay informed about discussions, decisions, and action items where they're mentioned.
 
