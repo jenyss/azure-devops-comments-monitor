@@ -5,7 +5,9 @@
 
 The agent works with any Azure DevOps organization and is perfect for engineering managers, team leads, and individual contributors who need to stay informed about discussions, decisions, and action items where they're mentioned.
 
-https://youtu.be/9XJRYcfMs10
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://youtu.be/9XJRYcfMs10)
+
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## How It Works
 
