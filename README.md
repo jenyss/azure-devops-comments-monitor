@@ -5,6 +5,8 @@
 
 The agent works with any Azure DevOps organization and is perfect for engineering managers, team leads, and individual contributors who need to stay informed about discussions, decisions, and action items where they're mentioned.
 
+https://youtu.be/9XJRYcfMs10
+
 ## How It Works
 
 1. **Query Work Items** - Retrieves work items from a saved Azure DevOps query
