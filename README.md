@@ -10,7 +10,6 @@ The agent works with any Azure DevOps organization and is perfect for engineerin
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 ## How It Works
-
 1. **Query Work Items** - Retrieves work items from a saved Azure DevOps query
 2. **Fetch Comments** - Collects all comments from each work item
 3. **Filter & Process** - Identifies mentions of the target user within the last 2 days
